@@ -9,7 +9,6 @@ export class ListItem extends Component {
     };
     this.$rootElement = document.createElement('div');
     this.$rootElement.className = 'donate-item';
-    this.$rootElement.dataset.id = this.state.id;
     const $bold = document.createElement('b');
     $bold.textContent = `$${this.state.amount}`;
     const $deleteItem = document.createElement('button');
